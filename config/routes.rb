@@ -1,5 +1,11 @@
 Myappname::Application.routes.draw do
+  resources :posts
+
+  resources :users
+
   resources :teams
+
+  root :to => 'users#index'
 
 
   # The priority is based upon order of creation:
