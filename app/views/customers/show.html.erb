@@ -1,0 +1,40 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Firstname:</b>
+  <%= @customer.firstname %>
+</p>
+
+<p>
+  <b>Lastname:</b>
+  <%= @customer.lastname %>
+</p>
+
+<p>
+  <b>Number:</b>
+  <%= @customer.number %>
+</p>
+
+<p>
+  <b>Request:</b>
+  <%= @customer.request %>
+</p>
+
+<p>
+  <b>Calltime:</b>
+  <%= @customer.calltime %>
+</p>
+
+<p>
+  <b>Complaint:</b>
+  <%= @customer.complaint %>
+</p>
+
+<p>
+  <b>Department:</b>
+  <%= @customer.department %>
+</p>
+
+
+<%= link_to 'Edit', edit_customer_path(@customer) %> |
+<%= link_to 'Back', customers_path %>

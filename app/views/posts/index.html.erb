@@ -15,6 +15,7 @@
     <td><%= post.title %></td>
     <td><%= post.body %></td>
     <td><%= post.day %></td>
+    <td><%= post.user_name %></td>
     <td><%= link_to 'Show', post %></td>
     <td><%= link_to 'Edit', edit_post_path(post) %></td>
     <td><%= link_to 'Destroy', post, confirm: 'Are you sure?', method: :delete %></td>
@@ -24,4 +25,7 @@
 
 <br />
 
-<%= link_to 'New Post', new_post_path %>
+<%= link_to 'New Customer', new_customer_path %>
+<%=link_to'New User', new_user_path%>
+<%=link_to'New Post', new_post_path%>
+
